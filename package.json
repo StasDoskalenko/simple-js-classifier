@@ -1,0 +1,43 @@
+{
+  "name": "simple-js-classifier",
+  "description": "Simple neural network library to classify natural language text",
+  "version": "0.0.1",
+  "author": "Stanislav Doskalenko <doskalenko.s@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/StasDoskalenko/simple-js-classifier.git"
+  },
+  "scripts": {
+    "make": "babel src --out-dir dist --source-maps"
+  },
+  "main": "./index.js",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "mocha": "^3.0.2"
+  },
+  "keywords": [
+    "ai",
+    "artificial-intelligence",
+    "neural network",
+    "classifier",
+    "neural",
+    "network",
+    "neural-networks",
+    "machine-learning",
+    "synapse",
+    "recurrent",
+    "rnn",
+    "lstm",
+    "gru"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-polyfill": "^6.13.0"
+  }
+}
